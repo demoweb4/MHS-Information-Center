@@ -87,10 +87,41 @@
             <div class="form-group">
                 <input type="hidden" id="residence_id" name="residence_id">
                 <input type="hidden" id="staff_id" name="staff_id">
-                <input type="text" class="form-control " id="requiredMonth" name="requiredMonth" placeholder="Required Month">
+                <!-- <input type="month" class="form-control " id="requiredMonth" name="requiredMonth" > -->
+                <label for="month">Month: </label><br>
+                <select class="form-control" id="requiredMonth" name="requiredMonth">
+                <option selected>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+                </select>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control " id="requiredYear" name="requiredYear" placeholder="Required Year">
+                <!-- <input type="text" class="form-control " id="requiredYear" name="requiredYear" placeholder="Required Year"> -->
+                <label for="year">Year: </label><br>
+                <select class="form-control" 
+                id="requiredYear" name="requiredYear">
+                    <option selected>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                </select>
             </div>
             </div>
             <div class="modal-footer">
